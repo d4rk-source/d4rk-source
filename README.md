@@ -11,6 +11,7 @@ Every lab below runs in my own environment and is written up step by step: what 
 | [Identity incident in Microsoft 365](https://github.com/d4rk-source/m365-identity-incident-response) | Password attack, Entra ID sign-in log investigation, containment, a tested Conditional Access policy |
 | [Endpoint incident with Microsoft Defender](https://github.com/d4rk-source/defender-endpoint-incident-lab) | EDR onboarding, incident triage, Windows event logs, MITRE ATT&CK, device isolation |
 | [Cross-platform triage kit](https://github.com/d4rk-source/cross-platform-triage-kit) | PowerShell, Bash and Python triage collectors, persistence detection via baseline diff |
+| [Phishing email triage](https://github.com/d4rk-source/phishing-email-analysis) | Header analysis of four real phishing emails, IOC extraction, MITRE ATT&CK, a Python triage script and tested Sigma/KQL detections |
 
 ## Previously: smart contract security
 
