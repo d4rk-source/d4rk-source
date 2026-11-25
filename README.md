@@ -1,31 +1,27 @@
 # Hi, I'm Adomas (Alex) Venslovas
 
-Security researcher from Kaunas, Lithuania. I started in smart contract security (paid audits, Code4rena findings) and I'm now building the defensive side hands-on: Microsoft security, incident response and vulnerability triage.
+Smart contract security researcher from Kaunas, Lithuania. I audit DeFi protocols — mostly vaults — for the bugs that leak or miscount funds before they go live. Paid audits, a Code4rena finding, and a few responsible disclosures so far.
 
-Every lab below runs in my own environment and is written up step by step: what I did, what I found, and what I'd do in a real company.
+## What I've done
 
-## Security labs
+- Critical-severity finding on BulkSender, plus paid audits for KoinArcade and BulkSender
+- Medium-severity finding on [Code4rena](https://code4rena.com/@Alex_Cipher) (Megapot)
+- Responsible disclosures to Ronin-ecosystem projects (Fableborne, Apeiron, MoTZ)
 
-| Lab | What it shows |
-|---|---|
-| [Identity incident in Microsoft 365](https://github.com/d4rk-source/m365-identity-incident-response) | Password attack, Entra ID sign-in log investigation, containment, a tested Conditional Access policy |
-| [Endpoint incident with Microsoft Defender](https://github.com/d4rk-source/defender-endpoint-incident-lab) | EDR onboarding, incident triage, Windows event logs, MITRE ATT&CK, device isolation |
-| [Cross-platform triage kit](https://github.com/d4rk-source/cross-platform-triage-kit) | PowerShell, Bash and Python triage collectors, persistence detection via baseline diff |
-| [Phishing email triage](https://github.com/d4rk-source/phishing-email-analysis) | Header analysis of four real phishing emails, IOC extraction, MITRE ATT&CK, a Python triage script and tested Sigma/KQL detections |
+## Work
 
-## Previously: smart contract security
+**[Never-Poor-Again](https://github.com/d4rk-source/Never-Poor-Again)** — a deliberately vulnerable DeFi protocol with a Foundry exploit suite. Audit, exploit, report, fix.
 
-- Critical finding on BulkSender, plus audits for KoinArcade and BulkSender
-- Medium severity finding on [Code4rena](https://code4rena.com/@Alex_Cipher) (Megapot)
-- Responsible disclosures to Ronin ecosystem projects (Fableborne, Apeiron, MoTZ)
-- Practice repo: [Never-Poor-Again](https://github.com/d4rk-source/Never-Poor-Again), audit, exploit, report, fix
+Other builds: [Two-Chain-Bridge-Lab](https://github.com/d4rk-source/Two-Chain-Bridge-Lab) (cross-chain messaging), [DiceFate](https://github.com/d4rk-source/DiceFate) and [StakeKarting](https://github.com/d4rk-source/StakeKarting) (on-chain games). I've built protocols, not just audited them — it helps me read code the way the people who wrote it did.
 
-## Tools I use
+Vault teardowns and audit write-ups are coming — I'll post them here as I publish.
 
-Linux (Arch, Kali) · PowerShell · Bash · Python · Burp Suite · nmap · Microsoft Defender XDR · Entra ID · Solidity · Foundry
+## Tools
+
+Solidity · Foundry · Python · Bash · Linux (Arch) · my own Solidity multi-scanner
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/alex-cipher/) · [alexcipher.xyz](https://alexcipher.xyz/) · [Email](mailto:adamas.vensl@gmail.com)
+[alexcipher.xyz](https://alexcipher.xyz/) · [Code4rena](https://code4rena.com/@Alex_Cipher) · [X](https://x.com/_AlexCipher) · [Email](mailto:adamas.vensl@gmail.com)
 
-Open to SOC / security analyst, vulnerability triage and IT security roles, remote or with flexible hours.
+Available for vault and DeFi smart contract reviews — send me the scope and I'll get back to you.
